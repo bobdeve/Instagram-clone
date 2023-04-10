@@ -55,7 +55,7 @@ for (let i = 0; i < mainContainer.length; i++) {
       var heartIcon = document.querySelectorAll(".icon-heart")
       var likes = document.querySelectorAll(".likes")
       console.log( heartIcon[i].src)
-      if (heartIcon[i].src === "file:///C:/Users/Bob/OneDrive/Desktop/Scrimba/Css%20fundamental%20Instagram%20clone/images/icon-heart.png"){
+      if (heartIcon[i].src === "https://merry-chaja-afde48.netlify.app/images/icon-heart.png"){
         heartIcon[i].src= "images/red-icon.png"
         var currentValue = parseInt(likes[i].textContent) + 1
          likes[i].textContent=currentValue
