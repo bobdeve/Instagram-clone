@@ -6,7 +6,8 @@ const posts = [
         avatar: "images/avatar-vangogh.jpg",
         post: "images/post-vangogh.jpg",
         comment: "just took a few mushrooms lol",
-        likes: 21
+        likes: 21,
+        icon: "images/red-icon.png"
     },
     {
         name: "Gustave Courbet",
@@ -56,12 +57,12 @@ for (let i = 0; i < mainContainer.length; i++) {
       var likes = document.querySelectorAll(".likes")
       console.log( heartIcon[i].src)
       if (heartIcon[i].src === "https://merry-chaja-afde48.netlify.app/images/icon-heart.png"){
-        heartIcon[i].src= "images/red-icon.png"
+        heartIcon[i].src=  posts[0].icon
         var currentValue = parseInt(likes[i].textContent) + 1
          likes[i].textContent=currentValue
       }
       else{
-        heartIcon[i].src= "images/icon-heart.png"
+        heartIcon[i].src= "images/icon-heart.png" 
         var currentValue = parseInt(likes[i].textContent) - 1
         likes[i].textContent=currentValue
       }
