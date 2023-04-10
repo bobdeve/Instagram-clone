@@ -1,0 +1,137 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    background-color: #F5F5F5;
+}
+
+.container-main{
+    width: 375px;
+    height: 620px;
+    background-color: #ffffff;
+    margin: 0px auto 30px auto;
+}
+.container-mainpost{
+    background-color: #ffffff;
+    width: 375px;
+    height: 545px;
+    margin: 0px auto 30px auto;
+}
+
+
+.user-avatar,
+.pro-img{
+    border-radius: 50%;
+}
+header {
+    border-bottom: 1px solid black;
+}
+.logo-img{
+    width: 127px;
+    height: 33px;
+    margin: 16px 183px 17px 15px;
+    display: inline-block;
+}
+.user-avatar{
+    display: inline-block;
+    height: 34px;
+    width: 34px;
+    margin: 0px;
+    margin: 16px 12px 17px 0px;
+
+}
+.section-header{
+    /* border: 1px solid violet; */
+    margin: 10px 17px 11px 10px;
+    width: 348px;
+    height: 34px;
+    display: flex;
+}
+.pro-img{
+    height: 34px;
+    width: 34px;
+    display: inline-block;
+  
+    margin:0px 5px 0px 0px;
+}
+ .pro-texts{
+    width: 307px;
+    height: 34px;
+    display: inline-block;
+    margin: 2px 0 0 0;
+    /* border: 1px solid black; */
+    
+ }
+
+.pro-name{
+    display: block;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    width: 304px;
+    height: 15px;
+    color: #000000; 
+    margin: 0;
+}
+.pro-place{
+    display: block;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    width: 304px;
+    height: 15px;
+   
+    margin: 0;
+}
+.posted-image{
+    height: 375px;
+    width: 375px;
+    
+}
+footer{
+    width: 346px;
+    height: 78px;
+    margin: 21px 19px 16px 10px;
+    /* border: 1px solid green; */
+}
+.icons{
+    display: flex;
+    width: 104.34px;
+    height: 22.13px;
+    /* border: 1px solid red; */
+    margin-bottom: 12px;
+}
+.icon-heart,
+.icon-comment,
+.icon-dm{
+    width: 23px;
+    height: 22px;
+}
+.icon-heart,
+.icon-comment{
+   margin-right: 20px;
+   /* opacity: 0.5;
+   background-color: rgba(255, 0, 0, 0.5); */
+}
+.para-likes,.para-post {
+width: 344px;
+height: 16px;
+font-family: 'Source Sans Pro', sans-serif;
+font-style: normal;
+
+font-size: 13px;
+line-height: 16px;
+margin: 0 18px 12px 4px;
+}
+.para-likes{
+    font-weight: 700;
+   
+}
+.para-post{
+    font-weight: normal;
+    margin: 0 16px 16px 3px;
+}
+.para-username{
+    font-weight: 700;
+}
