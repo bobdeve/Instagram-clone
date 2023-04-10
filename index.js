@@ -16,7 +16,8 @@ const posts = [
         avatar: "images/avatar-courbet.jpg",
         post: "images/post-courbet.jpg",
         comment: "i'm feelin a bit stressed tbh",
-        likes: 4
+        likes: 4,
+        icon: "images/icon-heart.png"
     },
         {
         name: "Joseph Ducreux",
@@ -62,7 +63,7 @@ for (let i = 0; i < mainContainer.length; i++) {
          likes[i].textContent=currentValue
       }
       else{
-        heartIcon[i].src= "images/icon-heart.png" 
+        heartIcon[i].src= posts[1].icon 
         var currentValue = parseInt(likes[i].textContent) - 1
         likes[i].textContent=currentValue
       }
