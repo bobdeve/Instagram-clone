@@ -40,6 +40,7 @@ const imagePost3 = document.getElementById("image-posted2");
 const mainContainer = document.querySelectorAll(".containermains")
 
 
+
 // const icons = document.querySelectorAll(".icons-img")
 
 

@@ -135,3 +135,6 @@ margin: 0 18px 12px 4px;
 .para-username{
     font-weight: 700;
 }
+.icons:hover{
+    opacity: 0.5;
+}
