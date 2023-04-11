@@ -41,9 +41,6 @@ const mainContainer = document.querySelectorAll(".containermains")
 
 
 
-const icons = document.querySelectorAll(".icons")
-
-
 profileImage1.setAttribute("src", posts[0].avatar);
 profileImage2.setAttribute("src", posts[1].avatar);
 profileImage3.setAttribute("src", posts[2].avatar);
@@ -51,7 +48,7 @@ imagePost1.setAttribute("src", posts[0].post)
 imagePost2.setAttribute("src", posts[1].post)
 imagePost3.setAttribute("src",posts[2].post)
 
-console.log(icons)
+
 
 for (let i = 0; i < mainContainer.length; i++) {
    const container = mainContainer[i]
@@ -75,14 +72,3 @@ for (let i = 0; i < mainContainer.length; i++) {
     })
     
 }
- 
- for (var i = 0; i <icons.length; i++){
-   icons[i].addEventListener("mouseenter", function(){
-    icons[i].style.opacity= "0.5"
-   })
-   icons[i].addEventListener("mouseleave", function(){
-    icons[i].style.opacity= "1"
-
-   })
-
- }
