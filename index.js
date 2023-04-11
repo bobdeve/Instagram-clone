@@ -41,7 +41,7 @@ const mainContainer = document.querySelectorAll(".containermains")
 
 
 
-const icons = document.querySelectorAll(".icons-img")
+const icons = document.querySelectorAll(".icons")
 
 
 profileImage1.setAttribute("src", posts[0].avatar);
