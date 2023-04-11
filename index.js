@@ -51,6 +51,8 @@ imagePost1.setAttribute("src", posts[0].post)
 imagePost2.setAttribute("src", posts[1].post)
 imagePost3.setAttribute("src",posts[2].post)
 
+console.log(icons)
+
 for (let i = 0; i < mainContainer.length; i++) {
    const container = mainContainer[i]
    container.addEventListener("dblclick",function (){
