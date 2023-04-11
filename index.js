@@ -41,7 +41,7 @@ const mainContainer = document.querySelectorAll(".containermains")
 
 
 
-// const icons = document.querySelectorAll(".icons-img")
+const icons = document.querySelectorAll(".icons-img")
 
 
 profileImage1.setAttribute("src", posts[0].avatar);
@@ -73,3 +73,14 @@ for (let i = 0; i < mainContainer.length; i++) {
     })
     
 }
+ 
+ for (var i = 0; i <icons.length; i++){
+   icons[i].addEventListener("mouseenter", function(){
+    icons[i].style.opacity= "0.5"
+   })
+   icons[i].addEventListener("mouseleave", function(){
+    icons[i].style.opacity= "1"
+
+   })
+
+ }
